@@ -47,10 +47,12 @@ PÅGÅR! Uppgift 1.2
         För att uppgiften ska vara godkänd ska ditt dokument minst innehålla följande:
 
         Element för att dokumentet ska validera enligt HTML5    
-        Två rubriknivåer
+check   Två rubriknivåer
         Text separerad med hjälp av paragraftaggar.
-        Samtliga listor. (ol, ul, dl)
-        Minst en lista som ligger inuti en annan lista.
-        Minst en kommentar
+check   Samtliga listor. (ol, ul, dl)
+check   Minst en lista som ligger inuti en annan lista.
+check   Minst en kommentar
     
     Valideras: http://validator.w3.org/
+    
+    
