@@ -55,4 +55,8 @@ check   Minst en kommentar
     
     Valideras: http://validator.w3.org/
     
+*****************************************************************************
+
+PÅGÅR! Uppgift 1.3
+
     
