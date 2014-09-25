@@ -60,18 +60,18 @@ table {
 	border-spacing: 0;
 }
 /*End of Meyer's margin resetter*/
-aside{
-	background-color:#ABEAC5;
-	width:220px;
-	border:1px solid black;
+a:link{
+	text-decoration: none;
 }
-body{
-	background-color:#5F7435;
-	font-family: garamond;
+a:visited{
+	border-right:0.1875em solid #ADD360;
 }
-header{
-	position: fixed;
-	width: 960px;
+a:hover{
+	border-right:0.1875em solid #5F7435;
+	border-left:0.1875em solid #5F7435;
+}
+a:active{
+	background-color:white;
 }
 address{
 	background-image: url('pics/footer_960_180.jpg');
@@ -81,8 +81,35 @@ address{
 	bottom:0px;
 	width:960px;
 }
-nav{
+aside{
+	background-color:#ABEAC5;
 	width:220px;
+	border:1px solid black;
+}
+body{
+	background-color:#5F7435;
+	font-family: arial helvetica sans-serif;
+}
+header{
+	position: fixed;
+	width: 960px;
+}
+nav{
+	width:210px;
+}
+nav li a{
+	background-color:#14180C;
+	border-bottom: 5px solid #D9FE8F;
+	border-right:3px solid #5F7435;
+	border-bottom-right-radius:3px;
+	border-radius:0.1875em;
+	color:#CCF678;
+	display:block;
+	font-size: 2em;
+	height:1em;
+	margin-bottom:4px;
+	padding: 0.19em 0.19em 0.19em 0.19em;
+	width:6em;
 }
 #leftcolumn{
 	background-color:#D9FE8F;
@@ -104,7 +131,7 @@ nav{
 	float:right;
 	margin:197px 20px 45px 288px;
 	padding:20px;
-	width:610px;
+	width:38.125em;
 	overflow:scroll;
 }
 #wrapper{
@@ -113,7 +140,7 @@ nav{
 }
 #wrappercenter{
 	margin:auto;
-	width:960px;
+	width:60em;
 	
 }
 
