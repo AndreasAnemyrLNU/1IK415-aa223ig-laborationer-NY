@@ -1,7 +1,11 @@
 /*Colors pallete made with paletton.com
 
-#1E7A43 Green
-#1E546B Blue
+#D9FE8F
+#CCF678
+#ADD360
+#5F7435
+#14180C
+
 
 */
    
@@ -58,42 +62,61 @@ table {
 /*End of Meyer's margin resetter*/
 aside{
 	background-color:#ABEAC5;
-	margin:30px 0 0 30px;
 	width:220px;
-	float: left;
+	border:1px solid black;
 }
 body{
-	background-color:#1E546B;
+	background-color:#5F7435;
 	font-family: garamond;
 }
 header{
+	position: fixed;
 	width: 960px;
-	float:left;
 }
 address{
-	margin:30px 0 0 0;
+	background-image: url('pics/footer_960_180.jpg');
+	border-bottom:1px;
+	position:fixed;
+	height:35px;
+	bottom:0px;
 	width:960px;
-	float:left;
 }
 nav{
-	margin:30px 0 0 30px;
 	width:220px;
+}
+#leftcolumn{
+	background-color:#D9FE8F;
+	border-radius:10px;
+	border:1px solid #14180C;
+	color:#14180C;
 	float:left;
+	margin:197px 10px 45px 20px;
+	padding:20px;
+	position: fixed;
+	width:210px;
+	overflow:scroll;
 }
-#centerwrapper{
-	margin: auto auto;
-	width:960px;
-}
-#right_column{
-	margin:30px 30px 0 0;
-	width:600px;
+#rightcolumn{
+	background-color:#D9FE8F;
+	border-radius:10px;
+	border:1px solid #14180C;
+	color:#14180C;
 	float:right;
+	margin:197px 20px 45px 288px;
+	padding:20px;
+	width:610px;
+	overflow:scroll;
 }
-#contentwrapper{
-	background-color:white;
+#wrapper{
+	background-color:#ADD360;
 	float:left;
-	height:100%;
+}
+#wrappercenter{
+	margin:auto;
+	width:960px;
 	
 }
+
+
 
 

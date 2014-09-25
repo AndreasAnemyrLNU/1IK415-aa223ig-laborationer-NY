@@ -1,87 +1,89 @@
 <!doctype html>
 <html lang="sv">
-        <head>
-            <meta charset="utf-8" />
-            <title>Andréas Anemyr - Webbprogrammere LNU</title>
-            <link rel="stylesheet" href="css/style.css" type="text/css" />
-        </head>
-        <body>
-            <div id="centerwrapper">
-                <div id="contentwrapper">
-                    <header>
-                    <img alt="logotype" src="pics/logo_800_200.png">
-                    </header>
-                    <nav>
-                        <ul>
-                            <li><a href="index.html">Start</a></li>
-                            <li><a href="pages/presentation.html">Presentation</a></li>
-                            <li><a href="pages/laborationer.html">Labbar</a></li>
-                            <li><a href="pages/kontakt.html">Kontakt</a></li>
-                        </ul>
-                    </nav>
-                    <div id="right_column">
-                    <section>
-                        <div>
-                            <h2 class="h2">Kursblogg</h2>
-                            <h3>Här publicerars viktiga flektioner gällande HTML5/CSS</h3>
-                        </div>                    
-                            <article>
-                                <h4>Blogginlägg #1</h4>
-                                <h5>Testinlägg</h5>
-                                <h6>Publicerat 12/8 -14. Kl 11:25</h6>
-                                <p class ="bloggingText">Här kommer första testinlägget i nya bloggen. Fler kommer att följa under kursen 1IK416 (Webbteknisk Introduktion).</p>
-                            </article>
-                            <article>
-                                <h4>Blogginlägg #2</h4>
-                                <h5>Absoluta/Relativa sökvägar</h5>
-                                <h6>Publicerat 12/8 -14. Kl 11:43</h6>
-                                <p class ="bloggingText">Som en del i kursen "Webbteknisk Introduktion" ligger det i uppgift att förklara vad Absolut/Relativa sökvägar. Detta blogginlägg kommer att gälla som mitt svar för uppgift 1.4 i kursen.</p>
-                                <img src="pics/filetree.png" alt="Bild på filstruktur"/>
-                                <p>För att nå katalogen www ponerar vi att vi anger http://www.server.se</p>
-                                <dl>   
-                                    <dt>1.4.1. Vilken är den absoluta sökvägen till filen bottom.html?</dt>
-                                        <dd>Svar: http://www.server.se/html/pages/bottom.html</dd>
-                                    <dt>1.4.2. Vilken är den relativa sökvägen från filen default.html till filen top.html?</dt>
-                                        <dd>Svar: pages/top.html</dd>                            
-                                    <dt>1.4.3. Vilken är den relativa sökvägen från filen bottom.html till filen index.html?</dt>
-                                        <dd>Svar: ../../index.html</dd>
-                                    <dt>1.4.4. Vilken är den absoluta sökvägen till filen index.html?</dt>
-                                         <dd>Svar: http://www.server./index.html</dd>
-                                    <dt>1.4.5. Vilken är den relativa sökvägen från filen top.html till bottom.html?</dt>
-                                        <dd>Svar bottom.html:</dd> 
-                                    <dt>1.4.6. Vilken är den relativa sökvägen från filen index.html till top.html?</dt>
-                                        <dd>Svar html/pages/top.html:</dd>                            
-                                </dl>              
-                            </article>
-                            <article id="blogginlagg_3">
-                                <h4>Blogginlägg #3</h4>
-                                <h5>Test av SVG-grafik</h5>
-                                <h6>Publicerat 14/8 -14. Kl 17:40</h6>
-                                <p class ="bloggingText">Som en del i kursen "Webbteknisk Introduktion" ligger det i uppgift att test på SVG-grafik.</p>
-                                <img src="pics/test.svg" alt="Bild på filstruktur"/>
-                            </article>
-                            <article id="blogginlagg_4">
-                                <h4>Blogginlägg #4</h4>
-                                <h5>Test av Video-Tagg</h5>
-                                <h6>Publicerat 14/8 -14. Kl 21:09</h6>
-                                <p class ="bloggingText">Som en del i kursen "Webbteknisk Introduktion" ligger det i uppgift att testa Video-taggen i HTML5.</p>
-                                <video src="videos/IMG_4099.mp4" height="200" preload="none" controls="controls"></video>
-                            </article>                                
-                    </section>
-                    </div>
-                        <aside>
-                            <ul>
-                                <li><a href="https://www.webbprogrammerare.se">webbprogramamerare.se</a> (webbprogrammerare 120hp - LNU Kalmar)</li>
-                                <li><a href="http://validator.w3.org/">validator.w3.org</a> (dokumentvalidering)</li>
-                                <li><a href="http://www.gullmar.se">www.gullmar.se</a> (Min arbetsplats)</li>                    
-                            </ul>
-                        </aside>
-                    <footer>
-                        <address>
-                            <p>Anemyr.se - Prästängsvägen 8 - 598 92 - Vimmerby <a href="mailto:andreas@anemyr.se?subject=feedback">Mail</a></p>
-                        </address>
-                    </footer>
+    <head>
+        <meta charset="utf-8" />
+        <title>Andréas Anemyr - Webbprogrammere LNU</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+    </head>
+    <body>
+        <div id="wrappercenter">
+            <div id="wrapper">
+                <header>
+                <img alt="logotype" src="pics/logo_header_960_180.png">
+                </header>
+                <div id="leftcolumn">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Start</a></li>
+                        <li><a href="pages/presentation.html">Presentation</a></li>
+                        <li><a href="pages/laborationer.html">Labbar</a></li>
+                        <li><a href="pages/kontakt.html">Kontakt</a></li>
+                    </ul>
+                </nav>
+                <aside>
+                    <ul>
+                        <li><a href="https://www.webbprogrammerare.se">webbprogramamerare.se</a> (webbprogrammerare 120hp - LNU Kalmar)</li>
+                        <li><a href="http://validator.w3.org/">validator.w3.org</a> (dokumentvalidering)</li>
+                        <li><a href="http://www.gullmar.se">www.gullmar.se</a> (Min arbetsplats)</li>                    
+                    </ul>
+                </aside>
                 </div>
+                <div id="rightcolumn">
+                <section>
+                    <div>
+                        <h2 class="h2">Kursblogg</h2>
+                        <h3>Här publicerars viktiga flektioner gällande HTML5/CSS</h3>
+                    </div>                    
+                        <article>
+                            <h4>Blogginlägg #1</h4>
+                            <h5>Testinlägg</h5>
+                            <h6>Publicerat 12/8 -14. Kl 11:25</h6>
+                            <p class ="bloggingText">Här kommer första testinlägget i nya bloggen. Fler kommer att följa under kursen 1IK416 (Webbteknisk Introduktion).</p>
+                        </article>
+                        <article>
+                            <h4>Blogginlägg #2</h4>
+                            <h5>Absoluta/Relativa sökvägar</h5>
+                            <h6>Publicerat 12/8 -14. Kl 11:43</h6>
+                            <p class ="bloggingText">Som en del i kursen "Webbteknisk Introduktion" ligger det i uppgift att förklara vad Absolut/Relativa sökvägar. Detta blogginlägg kommer att gälla som mitt svar för uppgift 1.4 i kursen.</p>
+                            <img src="pics/filetree.png" alt="Bild på filstruktur"/>
+                            <p>För att nå katalogen www ponerar vi att vi anger http://www.server.se</p>
+                            <dl>   
+                                <dt>1.4.1. Vilken är den absoluta sökvägen till filen bottom.html?</dt>
+                                    <dd>Svar: http://www.server.se/html/pages/bottom.html</dd>
+                                <dt>1.4.2. Vilken är den relativa sökvägen från filen default.html till filen top.html?</dt>
+                                    <dd>Svar: pages/top.html</dd>                            
+                                <dt>1.4.3. Vilken är den relativa sökvägen från filen bottom.html till filen index.html?</dt>
+                                    <dd>Svar: ../../index.html</dd>
+                                <dt>1.4.4. Vilken är den absoluta sökvägen till filen index.html?</dt>
+                                     <dd>Svar: http://www.server./index.html</dd>
+                                <dt>1.4.5. Vilken är den relativa sökvägen från filen top.html till bottom.html?</dt>
+                                    <dd>Svar bottom.html:</dd> 
+                                <dt>1.4.6. Vilken är den relativa sökvägen från filen index.html till top.html?</dt>
+                                    <dd>Svar html/pages/top.html:</dd>                            
+                            </dl>              
+                        </article>
+                        <article id="blogginlagg_3">
+                            <h4>Blogginlägg #3</h4>
+                            <h5>Test av SVG-grafik</h5>
+                            <h6>Publicerat 14/8 -14. Kl 17:40</h6>
+                            <p class ="bloggingText">Som en del i kursen "Webbteknisk Introduktion" ligger det i uppgift att test på SVG-grafik.</p>
+                            <img src="pics/test.svg" alt="Bild på filstruktur"/>
+                        </article>
+                        <article id="blogginlagg_4">
+                            <h4>Blogginlägg #4</h4>
+                            <h5>Test av Video-Tagg</h5>
+                            <h6>Publicerat 14/8 -14. Kl 21:09</h6>
+                            <p class ="bloggingText">Som en del i kursen "Webbteknisk Introduktion" ligger det i uppgift att testa Video-taggen i HTML5.</p>
+                            <video src="videos/IMG_4099.mp4" height="200" preload="none" controls="controls"></video>
+                        </article>                                
+                </section>
+                </div>
+                <footer>
+                    <address>
+                        <p>Anemyr.se - Prästängsvägen 8 - 598 92 - Vimmerby <a href="mailto:andreas@anemyr.se?subject=feedback">Mail</a></p>
+                    </address>
+                </footer>
             </div>
-        </body>
+        </div>
+    </body>
 </html>

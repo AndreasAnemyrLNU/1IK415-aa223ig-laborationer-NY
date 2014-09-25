@@ -6,143 +6,146 @@
             <link rel="stylesheet" href="../css/style.css" type="text/css" />
         </head>
         <body>
-            <div id="wrapper">
-                <header>
-                    <img alt="logotype" src="../pics/logo_800_200.png">
-                </header>
-                <nav>
-                    <ul>
-                        <li><a href="../index.html">Start</a></li>
-                        <li><a href="presentation.html">Presentation</a></li>
-                        <li><a href="laborationer.html">Labbar</a></li>
-                        <li><a href="kontakt.html">Kontakt</a></li>
-                    </ul>
-                </nav>
-                <content>
-                    <h1>Min laborationsportal</h1> 
-                <section>
-                    <h2>Webbteknisk Introduktion</h2>
-                    <article>
-                    <h5>Kursens delredovisningar</h5>
-                        <table id="course_table" border="1">
-                            <caption>Resultat</caption>
-                                <thead>
-                                    <tr>
-                                        <th>Laboration   </th>
-                                        <th>Uppgift      </th>
-                                        <th>Status       </th>
-                                        <th>Redovisad    </th>
-                                    </tr>                                            
-                                </thead>
-                                <tfoot>
-                                    <tr>
-                                        <td colspan="4">Laborationsresultat gällande Andréas Anemyr</td>
-                                    </tr>
-                                </tfoot>                                        
-                                <tbody>
-                                    <tr>
-                                        <td rowspan="9">1</td>
-                                        <td>1.1          </td>
-                                        <td>             </td>
-                                        <td>Nej          </td>
-                                    </tr>
-                                    <tr>
-                                        <td>1.2          </td>
-                                        <td>             </td>
-                                        <td>Nej          </td>
-                                    </tr>
-                                    <tr>
-                                        <td>1.3          </td>
-                                        <td>             </td>
-                                        <td>Nej          </td>
-                                    </tr>
-                                    <tr>
-                                        <td>1.4          </td>
-                                        <td>             </td>
-                                        <td>Nej          </td>
-                                    </tr>
-                                    <tr>
-                                        <td>1.5          </td>
-                                        <td>             </td>
-                                        <td>Nej          </td>
-                                    </tr>
-                                    <tr>
-                                        <td>1.6          </td>
-                                        <td>             </td>
-                                        <td>Nej          </td>
-                                    </tr>
-                                    <tr>
-                                        <td>1.7          </td>
-                                        <td>             </td>
-                                        <td>Nej          </td>
-                                    </tr>
-                                    <tr>
-                                        <td>1.8          </td>
-                                        <td>             </td>
-                                        <td>Nej          </td>
-                                    </tr>
-                                    <tr>
-                                        <td>1.9          </td>
-                                        <td>             </td>
-                                        <td>Nej          </td>
-                                    </tr>
-                                </tbody>
-                        </table>   
-                    </article>
-                    <ul>
-                         <li><a href="#labb_1">Laboration 1</a></li>
-                         <li><a href="#labb_2">Laboration 2</a></li>
-                    </ul>
-                    <article>
-                        <h3 id="labb_1">Laboration 1</h3>
-                        <p>Uppgifter:</p>
-                        <ol>
-                            <li>www-katalog. Check</li>
-                            <li><a href="presentation.html">Ett första dokument</a></li>
-                        </ol>
-                    </article>
-                    <article>
-                    <h3 id="labb_2">Laboration 2</h3>
-                        <p>Uppgifter:</p>
+            <div id="wrappercenter">
+                <div id="wrapper">
+                    <header>
+                        <img alt="logotype" src="../pics/logo_header_960_180.png">
+                    </header>
+                    <div id="leftcolumn">
+                        <nav>
+                            <ul>
+                                <li><a href="../index.html">Start</a></li>
+                                <li><a href="presentation.html">Presentation</a></li>
+                                <li><a href="laborationer.html">Labbar</a></li>
+                                <li><a href="kontakt.html">Kontakt</a></li>
+                            </ul>
+                        </nav>
+                        <aside>
                         <ul>
-                            <li>Absoluta och relativa sökvägar
-                                <dl>   
-                                    <dt>Vilken är den absoluta sökvägen till filen bottom.html?</dt>
-                                    <dd>http://www.server.se/html/pages/bottom.html</dd>
-                                    <dt>Vilken är den relativa sökvägen från filen default.html till filen top.html?</dt>
-                                    <dd>pages/top.html</dd>                            
-                                    <dt>Vilken är den relativa sökvägen från filen bottom.html till filen index.html?</dt>
-                                    <dd>../../index.html</dd>
-                                    <dt>Vilken är den absoluta sökvägen till filen index.html?</dt>
-                                    <dd>http://www.server./index.html</dd>
-                                    <dt>Vilken är den relativa sökvägen från filen top.html till bottom.html?</dt>
-                                    <dd>bottom.html:</dd> 
-                                    <dt>Vilken är den relativa sökvägen från filen index.html till top.html?</dt>
-                                    <dd>html/pages/top.html:</dd>                            
-                                </dl>
-                            </li>
-                            <li>Länkar & Listor</li>
-                            <li><p>Uppgift 1.6 - Bilder: Test av diverse filformat såsom. jpg, png & svg. <a href="presentation.html#foto">Presentationsbild</a> (jpg)<br /><a href="../index.html#blogginlagg_3">Vektorgrafik</a> (svg)<br /><a href="../pics/logo_800_200.png">Logga (png)</a></p></li>
-                            <li>Uppgift 1.7 - Video: Test av taggen video-taggen. <video><a href="../index.html#blogginlagg_4">Blogginlägg 4</a></video></li>
-                            <li>Uppgift 1.8 - Tabeller: <a href="#course_table">Kurstabell</a></li>
-                            <li>Uppgift 1.9 - Release: Release av webbsidan genomförd 15/9 -14</li>
+                            <li><a href="https://www.webbprogrammerare.se">webbprogramamerare.se</a> (webbprogrammerare 120hp - LNU Kalmar)</li>
+                            <li><a href="http://validator.w3.org/">validator.w3.org</a> (dokumentvalidering)</li>
+                            <li><a href="http://www.gullmar.se">www.gullmar.se</a> (Min arbetsplats)</li>                    
                         </ul>
+                        </aside>
+                    </div>
+                    <div id="rightcolumn">
+                        <h1>Min laborationsportal</h1> 
+                        <section>
+                        <h2>Webbteknisk Introduktion</h2>
+                        <article>
+                        <h5>Kursens delredovisningar</h5>
+                            <table id="course_table" border="1">
+                                <caption>Resultat</caption>
+                                    <thead>
+                                        <tr>
+                                            <th>Laboration   </th>
+                                            <th>Uppgift      </th>
+                                            <th>Status       </th>
+                                            <th>Redovisad    </th>
+                                        </tr>                                            
+                                    </thead>
+                                    <tfoot>
+                                        <tr>
+                                            <td colspan="4">Laborationsresultat gällande Andréas Anemyr</td>
+                                        </tr>
+                                    </tfoot>                                        
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="9">1</td>
+                                            <td>1.1          </td>
+                                            <td>             </td>
+                                            <td>Nej          </td>
+                                        </tr>
+                                        <tr>
+                                            <td>1.2          </td>
+                                            <td>             </td>
+                                            <td>Nej          </td>
+                                        </tr>
+                                        <tr>
+                                            <td>1.3          </td>
+                                            <td>             </td>
+                                            <td>Nej          </td>
+                                        </tr>
+                                        <tr>
+                                            <td>1.4          </td>
+                                            <td>             </td>
+                                            <td>Nej          </td>
+                                        </tr>
+                                        <tr>
+                                            <td>1.5          </td>
+                                            <td>             </td>
+                                            <td>Nej          </td>
+                                        </tr>
+                                        <tr>
+                                            <td>1.6          </td>
+                                            <td>             </td>
+                                            <td>Nej          </td>
+                                        </tr>
+                                        <tr>
+                                            <td>1.7          </td>
+                                            <td>             </td>
+                                            <td>Nej          </td>
+                                        </tr>
+                                        <tr>
+                                            <td>1.8          </td>
+                                            <td>             </td>
+                                            <td>Nej          </td>
+                                        </tr>
+                                        <tr>
+                                            <td>1.9          </td>
+                                            <td>             </td>
+                                            <td>Nej          </td>
+                                        </tr>
+                                    </tbody>
+                            </table>   
                         </article>
-    
-                    </section>
-                </content>
-                <aside>
-                    <ul>
-                        <li><a href="https://www.webbprogrammerare.se">webbprogramamerare.se</a> (webbprogrammerare 120hp - LNU Kalmar)</li>
-                        <li><a href="http://validator.w3.org/">validator.w3.org</a> (dokumentvalidering)</li>
-                        <li><a href="http://www.gullmar.se">www.gullmar.se</a> (Min arbetsplats)</li>                    
-                    </ul>
-                </aside>
-                <footer>
-                    <address>
-                        <p>Anemyr.se - Prästängsvägen 8 - 598 92 - Vimmerby <a href="mailto:andreas@anemyr.se?subject=feedback">Mail</a></p>
-                    </address>
-                </footer>
+                        <ul>
+                             <li><a href="#labb_1">Laboration 1</a></li>
+                             <li><a href="#labb_2">Laboration 2</a></li>
+                        </ul>
+                        <article>
+                            <h3 id="labb_1">Laboration 1</h3>
+                            <p>Uppgifter:</p>
+                            <ol>
+                                <li>www-katalog. Check</li>
+                                <li><a href="presentation.html">Ett första dokument</a></li>
+                            </ol>
+                        </article>
+                        <article>
+                        <h3 id="labb_2">Laboration 2</h3>
+                            <p>Uppgifter:</p>
+                            <ul>
+                                <li>Absoluta och relativa sökvägar
+                                    <dl>   
+                                        <dt>Vilken är den absoluta sökvägen till filen bottom.html?</dt>
+                                        <dd>http://www.server.se/html/pages/bottom.html</dd>
+                                        <dt>Vilken är den relativa sökvägen från filen default.html till filen top.html?</dt>
+                                        <dd>pages/top.html</dd>                            
+                                        <dt>Vilken är den relativa sökvägen från filen bottom.html till filen index.html?</dt>
+                                        <dd>../../index.html</dd>
+                                        <dt>Vilken är den absoluta sökvägen till filen index.html?</dt>
+                                        <dd>http://www.server./index.html</dd>
+                                        <dt>Vilken är den relativa sökvägen från filen top.html till bottom.html?</dt>
+                                        <dd>bottom.html:</dd> 
+                                        <dt>Vilken är den relativa sökvägen från filen index.html till top.html?</dt>
+                                        <dd>html/pages/top.html:</dd>                            
+                                    </dl>
+                                </li>
+                                <li>Länkar & Listor</li>
+                                <li><p>Uppgift 1.6 - Bilder: Test av diverse filformat såsom. jpg, png & svg. <a href="presentation.html#foto">Presentationsbild</a> (jpg)<br /><a href="../index.html#blogginlagg_3">Vektorgrafik</a> (svg)<br /><a href="../pics/logo_800_200.png">Logga (png)</a></p></li>
+                                <li>Uppgift 1.7 - Video: Test av taggen video-taggen. <video><a href="../index.html#blogginlagg_4">Blogginlägg 4</a></video></li>
+                                <li>Uppgift 1.8 - Tabeller: <a href="#course_table">Kurstabell</a></li>
+                                <li>Uppgift 1.9 - Release: Release av webbsidan genomförd 15/9 -14</li>
+                            </ul>
+                            </article>
+                        </section>
+                    </div>
+                    <footer>
+                        <address>
+                            <p>Anemyr.se - Prästängsvägen 8 - 598 92 - Vimmerby <a href="mailto:andreas@anemyr.se?subject=feedback">Mail</a></p>
+                        </address>
+                    </footer>
+                </div>    
             </div>
         </body>
 </html>
