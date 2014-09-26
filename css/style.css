@@ -106,11 +106,17 @@ article{
 	padding: 1.25em;
 }
 article h4{
+	background-image:url("pics/pencil.png");
+	background-repeat:no-repeat;
 	font-family:monospace;
-	font-size:1.4em;
+	font-size:2em;
 	font-weight:700;
+	height: 3em;
+	letter-spacing:0.4em;
 	margin: 1em 0;
-	text-transform: uppercase;
+	text-align:right;
+	text-indent:3em;
+	transform: uppercase;
 }
 article h5{
 	font-family:monospace;
