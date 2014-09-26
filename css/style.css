@@ -173,6 +173,16 @@ nav li a{
 	text-transform:uppercase;
 	width:14em;
 }
+tbody tr td{
+	text-align:center;
+}
+thead{
+	background-color:#14180C;
+	color:#D9FE8F;
+}
+thead tr th{
+	text-align:center;
+}
 #leftcolumn{
 	background-color:#D9FE8F;
 	border: 1px solid #CCF678;
