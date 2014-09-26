@@ -199,6 +199,10 @@ nav li a{
 }
 #rightcolumn h1{
 	background-color: #14180C;
+	background-image:url('pics/eye.png');
+	background-position: 13em -0.4em;
+	background-repeat:no-repeat;
+	background-size:2em;
 	border-radius: 0.1875em;
 	color:#D9FE8F;
 	font-size:2.5em;
@@ -210,7 +214,7 @@ nav li a{
 	padding:0.25em;
 	text-shadow: 0.04em 0.004em 0px #14180C;
 	text-transform:capitalize;
-	width: 28em;
+	width: 15em;
 }
 #rightcolumn p{
 	font-size:1em;
