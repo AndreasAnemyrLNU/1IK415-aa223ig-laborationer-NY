@@ -67,8 +67,7 @@ a:visited{
 	border-right:0.1875em solid #ADD360;
 }
 a:hover{
-	border-right:0.1875em solid #5F7435;
-	border-left:0.1875em solid #5F7435;
+	border-left:0.1875em solid #D9FE8F;
 }
 a:active{
 	background-color:white;
@@ -87,7 +86,7 @@ aside{
 	border:1px solid black;
 }
 body{
-	background-color:#5F7435;
+	background-color:#14180C;
 	font-family: arial helvetica sans-serif;
 }
 header{
@@ -99,49 +98,77 @@ nav{
 }
 nav li a{
 	background-color:#14180C;
-	border-bottom: 5px solid #D9FE8F;
-	border-right:3px solid #5F7435;
-	border-bottom-right-radius:3px;
-	border-radius:0.1875em;
-	color:#CCF678;
+	border-bottom:0.1em solid orange;
+	border-top:0.1em solid orange;
+	color:#D9FE8F;
 	display:block;
+	font-family:monospace;
 	font-size: 2em;
-	height:1em;
-	margin-bottom:4px;
-	padding: 0.19em 0.19em 0.19em 0.19em;
-	width:6em;
+	font-weight:900;
+	height:1.3em;
+	margin-bottom:0.75em;
+	padding-left:0.5em;
+	padding-top:0.2em;
+	width:9em;
 }
 #leftcolumn{
 	background-color:#D9FE8F;
+	border: 1px solid #CCF678;
 	border-radius:10px;
-	border:1px solid #14180C;
 	color:#14180C;
 	float:left;
 	margin:197px 10px 45px 20px;
-	padding:20px;
+	padding:2em 0 2em 0;
 	position: fixed;
-	width:210px;
-	overflow:scroll;
+	width:15.0em;
+	overflow:hidden;
 }
 #rightcolumn{
 	background-color:#D9FE8F;
+	border: 1px solid #CCF678;
 	border-radius:10px;
-	border:1px solid #14180C;
 	color:#14180C;
 	float:right;
-	margin:197px 20px 45px 288px;
-	padding:20px;
-	width:38.125em;
-	overflow:scroll;
+	letter-spacing:0.05em;
+	margin:197px 20px 50px 288px;
+	overflow:hidden;
+	padding:2em;
+	width:36.6em;
+}
+#rightcolumn h1{
+	border-bottom:0.1em solid orange;
+	border-top:0.1em solid orange;
+	background-color: #14180C;
+	border-radius: 0.1875em;
+	color:#D9FE8F;
+	font-size:2em;
+	font-weight:900;
+	font-family: monospace;
+	height: 1.15em;
+	margin-bottom:1em;
+	padding:0.25em;
+	text-shadow: 0.04em 0.004em 0px #14180C;
+	width: 22em;
+}
+
+#rightcolumn p{
+	font-size:1em;
+	line-height:1.3em;
 }
 #wrapper{
-	background-color:#ADD360;
+	border-left: 0.0625em solid orange;
+	border-right: 0.0625em solid #D9FE8F;
+	background-color:#5F7435;
 	float:left;
 }
 #wrappercenter{
 	margin:auto;
 	width:60em;
-	
+}
+.boxshadow{
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 1em #14180C;
 }
 
 
