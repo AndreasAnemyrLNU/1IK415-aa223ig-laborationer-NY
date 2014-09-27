@@ -181,6 +181,9 @@ thead{
 	color:#D9FE8F;
 }
 thead tr th{
+	border-radius:2em;
+	border: 0.4em solid orange;
+	padding:0.1875em;
 	text-align:center;
 }
 #leftcolumn{
@@ -252,6 +255,11 @@ thead tr th{
   -webkit-box-shadow: 0 0 5px#888;
   box-shadow: 0 0 0.250em #14180C;
 }
+.labbtable{
+	background-color:orange;
+	height:16em;
+	overflow: scroll;
+}
 .left{
 	float:left;
 }
@@ -262,3 +270,5 @@ thead tr th{
 
 
 
+
+tr:nth-child(even) {background: #CCC}
