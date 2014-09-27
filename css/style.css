@@ -102,8 +102,8 @@ address{
 article{
 	border:0.0625em solid #14180C;
 	border-radius:0.1875em;
-	margin: 1em 0 1em 0;
-	padding: 1.25em;
+	margin: 2.5em 0 2.5em 0;
+	padding: 2em;
 }
 article h4{
 	background-image:url("pics/pencil.png");
@@ -132,9 +132,7 @@ article h6{
 	font-weight:700;
 	margin: 0.50em 0;
 }
-article p{
-	line-height:200%em;
-}
+
 article img{
 	float:right;
 	width:60%;
@@ -149,9 +147,31 @@ body{
 	background-color:#14180C;
 	font-family: "georgia", serif;
 }
+fieldset{
+	background-color:orange;
+	margin-bottom:1em;
+	padding:1em;
+	width:24em;
+}
 header{
 	position: fixed;
 	width: 960px;
+}
+input[type="radio"]{
+	background-color:yellow;
+	height:2em;
+	vertical-align:middle;
+	width:4em;
+}
+input[type="text"]{
+	width:24em;
+}
+legend{
+	background-color:black;
+	border-radius:0.1875em;
+	color:white;
+	padding:0.5em;
+	width:24em;
 }
 nav{
 	width:210px;
@@ -173,6 +193,9 @@ nav li a{
 	text-transform:uppercase;
 	width:14em;
 }
+select[name="dropdown"]{
+	width:8em;
+}
 tbody tr td{
 	text-align:center;
 }
@@ -185,6 +208,10 @@ thead tr th{
 	border: 0.4em solid orange;
 	padding:0.1875em;
 	text-align:center;
+}
+tr:nth-child(even) {
+	background: #D9FE8F
+	
 }
 #leftcolumn{
 	background-color:#D9FE8F;
@@ -270,5 +297,3 @@ thead tr th{
 
 
 
-
-tr:nth-child(even) {background: #CCC}

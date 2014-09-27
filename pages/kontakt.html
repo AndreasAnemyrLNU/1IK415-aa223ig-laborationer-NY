@@ -29,26 +29,29 @@
                     </aside>
                 </div>
                 <div id="rightcolumn" class="boxshadow">
-                    <h1>Kontaktformulär</hi>
-                    <h5>Ange din e-postadress om du vill att vi kontaktar Dig!</h5>
-                    <form method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
-                        <fieldset>
-                            <input type="text" name="fname" value="Skriv din e-post"/>            
-                        </fieldset>
-                        <fieldset> 
-                            <legend>Har du erfarenhet av programmering?</legend>
-                                <p><input type="radio" name="ja"/>ja</p>
-                                <p><input type="radio" name="nej"/>nej</p>
-                        </fieldset>
-                        <fieldset> 
-                            <legend>Markera de språk du tidigare programmer i</legend>
-                                <select name="dropdown">
-                                    <option value="Java">C#</option>
-                                <option value="Ruby">PHP</option>
-                                </select>
-                        </fieldset>
-                        <input type="submit" value="Skicka"/>
-                    </form>
+                    <h1>Kontakta oss</h1>
+                    <article class="boxshadow">
+                        <h5>Ange din e-postadress om du vill att vi kontaktar Dig!</h5>
+                        <form method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+                            <fieldset class="boxshadow">
+                                <legend class="boxshadow">Vi behöver din e-postadress!</legend>
+                                <input type="text" name="e-post" value="Exempel namn@doman.se"/>            
+                            </fieldset>
+                            <fieldset class="boxshadow"> 
+                                <legend class="boxshadow">Har du erfarenhet av programmering?</legend>
+                                    <p><input type="radio" name="svar"/>ja</p>
+                                    <p><input type="radio" name="svar"/>nej</p>
+                            </fieldset>
+                            <fieldset class="boxshadow"> 
+                                <legend class="boxshadow">Bästa programmeringsspråket?</legend>
+                                    <select name="dropdown">
+                                        <option value="Java">C#</option>
+                                    <option value="Ruby">PHP</option>
+                                    </select>
+                            </fieldset>
+                            <input type="submit" value="Skicka"/>
+                        </form>
+                    </article>
                 </div>
                 <footer>
                     <address>
