@@ -191,19 +191,21 @@ nav{
 }
 nav li a{
 	background-color:#14180C;
+	background-image:url('pics/sprite.png');
+	background-repeat:no-repeat;
 	border-bottom:0.1em solid orange;
 	border-top:0.1em solid orange;
 	color:#D9FE8F;
 	display:block;
 	font-family:monospace;
-	font-size: 2em;
+	font-size: 1.8em;
 	font-weight:900;
-	height:1.3em;
+	height:24px;
 	letter-spacing:0.2em;
 	margin-bottom:0.75em;
-	padding-left:0.5em;
-	padding-top:0.2em;
+	padding-left: 10px;
 	text-transform:uppercase;
+	text-indent:1.5em;
 	width:14em;
 }
 select[name="dropdown"]{
@@ -310,4 +312,31 @@ tr:nth-child(even) {
 
 
 
+/* Testar Sprites nedanfö*/
+
+.start_icon{
+	background-position: 0 -48px;
+}
+.presentation_icon{
+	background-position: 0 -144px;	
+}
+.labb_icon{
+	background-position: 0 -240px;
+}
+.contact_icon{
+	background-position: 0 -336px
+}
+
+.start_icon:hover{
+	background-position: 0 0px;
+}
+.presentation_icon:hover{
+	background-position: 0 -96px;	
+}
+.labb_icon:hover{
+	background-position: 0 -192px;
+}
+.contact_icon:hover{
+	background-position: 0 -288px
+}
 
