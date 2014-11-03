@@ -167,7 +167,7 @@ fieldset{
 }
 header{
 	position: fixed;
-	width: 960px;
+	width: 480px;
 }
 input[type="radio"]{
 	background-color:yellow;
@@ -177,6 +177,9 @@ input[type="radio"]{
 }
 input[type="text"]{
 	width:24em;
+}
+img{
+	max-width:100%;
 }
 legend{
 	background-color:black;
@@ -234,10 +237,9 @@ tr:nth-child(even) {
 	border-radius:10px;
 	color:#14180C;
 	float:left;
-	margin:13.75em 10px 45px 2em;
-	padding:2em 0 2em 0;
-	position: fixed;
-	width:17.5em;
+	margin:100px 20px 0 20px;
+	padding:10px 10px;
+	width:420px;
 	overflow:hidden;
 }
 #rightcolumn{
@@ -247,10 +249,10 @@ tr:nth-child(even) {
 	color:#14180C;
 	float:left;
 	letter-spacing:0.18em;
-	margin:13.75em 2em 20em 22.5em;
+	margin:0 20px 0 20px;
 	overflow:hidden;
-	padding:2em;
-	width:31.405em;
+	padding:10px 10px;
+	width:420px;
 }
 #rightcolumn h1{
 	background-color: #14180C;
@@ -285,7 +287,7 @@ tr:nth-child(even) {
 #wrappercenter{
 	background-color:#5F7435;
 	margin:auto;
-	width:60em;
+	width:30em;
 }
 .activepage{
 	background-color:#8F1A1a;
