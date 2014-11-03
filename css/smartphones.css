@@ -1,0 +1,349 @@
+/*Colors pallete made with paletton.com
+
+#D9FE8F
+#CCF678
+#ADD360
+#5F7435
+#14180C
+orange
+yellow
+*/
+   
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*End of Meyer's margin resetter*/
+/* Start Format a*/
+/* a */
+a:link{
+	color:#5F7435;
+}
+a:visited{
+	color:#5F7435;
+}
+a:hover{
+	color:orange;
+	font-weight:800;
+	text-shadow: 0.04em 0.004em 0px #14180C;
+}
+/* nav a*/
+nav li a:link{
+	color:#D9FE8F;
+	text-decoration: none;
+} 
+nav li a:visited{
+	border-right:0.1875em solid #ADD360;
+	color:#D9FE8F;
+	font-weight:600;
+}
+nav li a:focus{
+	border-left:0.1875em solid #ADD360;
+	color:orange;
+}
+nav li a:hover{
+	border-left:0.1875em solid #D9FE8F;
+	color:orange;
+}
+nav li a:active{
+	background-color:white;
+}
+/*End Formatting a-tags*/
+address{
+	background-color:orange;
+	border-top:0.2em solid #5F7435;
+	border-bottom:0.2em solid #5F7435;
+	bottom:0px;
+	font-size:0.8em;
+	height:1em;
+	padding:0.1875em;
+	position:fixed;
+	text-align:center;
+	vertical-align:middle;
+	width:74.7em;
+}
+
+article{
+	border:0.0625em solid #14180C;
+	border-radius:0.1875em;
+	margin: 2.5em 0 2.5em 0;
+	overflow:auto;
+	padding: 2em;
+}
+article h4{
+	background-image:url("pics/pencil.png");
+	background-repeat:no-repeat;
+	font-family:monospace;
+	font-size:2em;
+	font-weight:700;
+	height: 3em;
+	letter-spacing:0.4em;
+	margin: 1em 1.3em 1em 0;
+	text-align:right;
+	text-indent:3em;
+	transform: uppercase;
+	width: 18em;
+}
+article h5{
+	font-family:monospace;
+	font-size:1.2em;
+	font-weight:700;
+	margin: 1.2em 0;
+	text-transform: uppercase;
+	
+}
+article h6{
+	font-family:monospace;
+	font-size:1em;
+	font-weight:700;
+	margin: 0.50em 0;
+}
+
+article img{
+	float:right;
+	width:60%;
+	border:1px solid black;
+	margin-right:1em;
+}
+aside{
+	clear:left;
+	float:left;
+}
+body{
+	background-color:#14180C;
+	font-family: "georgia", serif;
+}
+fieldset{
+	background-color:orange;
+	margin-bottom:1em;
+	padding:1em;
+	width:24em;
+}
+header{
+	position: fixed;
+	width: 960px;
+}
+input[type="radio"]{
+	background-color:yellow;
+	height:2em;
+	vertical-align:middle;
+	width:4em;
+}
+input[type="text"]{
+	width:24em;
+}
+legend{
+	background-color:black;
+	border-radius:0.1875em;
+	color:#CCF678;
+	font-weight:400;
+	padding:0.5em;
+	width:24em;
+}
+nav{
+	width:210px;
+}
+nav li a{
+	background-color:#14180C;
+	background-image:url('pics/sprite.png');
+	background-repeat:no-repeat;
+	border-bottom:0.1em solid orange;
+	border-top:0.1em solid orange;
+	color:#D9FE8F;
+	display:block;
+	font-family:monospace;
+	font-size: 1.8em;
+	font-weight:900;
+	height:24px;
+	letter-spacing:0.2em;
+	margin-bottom:0.75em;
+	padding-left: 10px;
+	text-transform:uppercase;
+	text-indent:1.5em;
+	width:14em;
+}
+select[name="dropdown"]{
+	width:8em;
+}
+tbody tr td{
+	text-align:center;
+}
+thead{
+	background-color:#14180C;
+	color:#D9FE8F;
+}
+thead tr th{
+	border-radius:2em;
+	border: 0.4em solid orange;
+	padding:0.1875em;
+	text-align:center;
+}
+tr:nth-child(even) {
+	background: #D9FE8F
+	
+}
+#leftcolumn{
+	background-color:#D9FE8F;
+	border: 1px solid #CCF678;
+	border-radius:10px;
+	color:#14180C;
+	float:left;
+	margin:13.75em 10px 45px 2em;
+	padding:2em 0 2em 0;
+	position: fixed;
+	width:17.5em;
+	overflow:hidden;
+}
+#rightcolumn{
+	background-color:#D9FE8F;
+	border: 1px solid #CCF678;
+	border-radius:10px;
+	color:#14180C;
+	float:left;
+	letter-spacing:0.18em;
+	margin:13.75em 2em 20em 22.5em;
+	overflow:hidden;
+	padding:2em;
+	width:31.405em;
+}
+#rightcolumn h1{
+	background-color: #14180C;
+	background-image:url('pics/eye.png');
+	background-position: 13em -0.4em;
+	background-repeat:no-repeat;
+	background-size:2em;
+	border-radius: 0.1875em;
+	color:#CCF678; 
+	font-size:2.5em;
+	font-weight:900;
+	font-family: monospace;
+	height: 1.15em;
+	letter-spacing:0.2em;
+	margin-bottom:1em;
+	padding:0.25em;
+	text-indent:0.5em;
+	text-shadow: 0.04em 0.004em 0px #14180C;
+	text-transform:capitalize;
+	width: 15em;
+}
+#rightcolumn p{
+	font-size:1em;
+	line-height:1.3em;
+}
+#wrapper{
+	border-left: 0.0625em solid #D9FE8F;
+	border-right: 0.0625em solid #D9FE8F;
+	background-color:#D9FE8F;
+	float:left;
+}
+#wrappercenter{
+	background-color:#5F7435;
+	margin:auto;
+	width:60em;
+}
+.activepage{
+	background-color:#8F1A1a;
+}
+.evenarticle{
+	background-color:orange;
+}
+.oddarticle{
+	background-color:yellow;
+}
+.boxshadow{
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 0.250em #14180C;
+}
+.labbtable{
+	background-color:orange;
+	height:16em;
+	overflow: scroll;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;	
+}
+
+
+
+/* Testar Sprites nedanfö*/
+
+.start_icon{
+	background-position: 0 -48px;
+}
+.presentation_icon{
+	background-position: 0 -144px;	
+}
+.labb_icon{
+	background-position: 0 -240px;
+}
+.contact_icon{
+	background-position: 0 -336px
+}
+
+.start_icon:hover{
+	background-position: 0 0px;
+}
+.presentation_icon:hover{
+	background-position: 0 -96px;	
+}
+.labb_icon:hover{
+	background-position: 0 -192px;
+}
+.contact_icon:hover{
+	background-position: 0 -288px
+}
+
+
+
+
+
