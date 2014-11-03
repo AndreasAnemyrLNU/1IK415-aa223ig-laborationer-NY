@@ -106,7 +106,7 @@ address{
 	position:fixed;
 	text-align:center;
 	vertical-align:middle;
-	width:74.7em;
+	width:480px;
 }
 
 article{
@@ -154,6 +154,7 @@ article img{
 aside{
 	clear:left;
 	float:left;
+	display:none;
 }
 body{
 	background-color:#14180C;
@@ -203,13 +204,14 @@ nav li a{
 	font-family:monospace;
 	font-size: 1.8em;
 	font-weight:900;
-	height:24px;
+	height:35px;
 	letter-spacing:0.2em;
-	margin-bottom:0.75em;
+	margin-bottom:1px;
 	padding-left: 10px;
+	padding-top:5px;
 	text-transform:uppercase;
 	text-indent:1.5em;
-	width:14em;
+	width:420px;
 }
 select[name="dropdown"]{
 	width:8em;
@@ -236,8 +238,7 @@ tr:nth-child(even) {
 	border: 1px solid #CCF678;
 	border-radius:10px;
 	color:#14180C;
-	float:left;
-	margin:100px 20px 0 20px;
+	margin:100px 20px 10px 20px;
 	padding:10px 10px;
 	width:420px;
 	overflow:hidden;
@@ -247,7 +248,6 @@ tr:nth-child(even) {
 	border: 1px solid #CCF678;
 	border-radius:10px;
 	color:#14180C;
-	float:left;
 	letter-spacing:0.18em;
 	margin:0 20px 0 20px;
 	overflow:hidden;
@@ -308,12 +308,7 @@ tr:nth-child(even) {
 	height:16em;
 	overflow: scroll;
 }
-.left{
-	float:left;
-}
-.right{
-	float:right;	
-}
+
 
 
 
