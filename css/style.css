@@ -77,7 +77,7 @@ a:hover{
 nav li a:link{
 	color:#D9FE8F;
 	text-decoration: none;
-}
+} 
 nav li a:visited{
 	border-right:0.1875em solid #ADD360;
 	color:#D9FE8F;
@@ -259,7 +259,7 @@ tr:nth-child(even) {
 	background-repeat:no-repeat;
 	background-size:2em;
 	border-radius: 0.1875em;
-	color:#CCF678;
+	color:#CCF678; 
 	font-size:2.5em;
 	font-weight:900;
 	font-family: monospace;
@@ -286,6 +286,9 @@ tr:nth-child(even) {
 	background-color:#5F7435;
 	margin:auto;
 	width:60em;
+}
+.activepage{
+	background-color:#8F1A1a;
 }
 .evenarticle{
 	background-color:orange;
@@ -339,4 +342,8 @@ tr:nth-child(even) {
 .contact_icon:hover{
 	background-position: 0 -288px
 }
+
+
+
+
 
