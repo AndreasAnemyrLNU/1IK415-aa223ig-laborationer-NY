@@ -113,7 +113,7 @@ article{
 	border:0.0625em solid #14180C;
 	border-radius:0.1875em;
 	margin: 2.5em 0 2.5em 0;
-	overflow:auto;
+	overflow:hidden;
 	padding: 2em;
 }
 article h4{
@@ -123,12 +123,10 @@ article h4{
 	font-size:2em;
 	font-weight:700;
 	height: 3em;
-	letter-spacing:0.4em;
 	margin: 1em 1.3em 1em 0;
 	text-align:right;
 	text-indent:3em;
 	transform: uppercase;
-	width: 18em;
 }
 article h5{
 	font-family:monospace;
@@ -204,7 +202,7 @@ nav li a{
 	font-family:monospace;
 	font-size: 1.8em;
 	font-weight:900;
-	height:35px;
+	height:25px;
 	letter-spacing:0.2em;
 	margin-bottom:1px;
 	padding-left: 10px;
