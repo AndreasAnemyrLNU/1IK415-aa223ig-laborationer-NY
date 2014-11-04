@@ -10,50 +10,60 @@ body{
     width: 960px;
 }
 #images{
-    border: 0.5em solid black;
+    background-image: url('pics/blue.jpg');
+    background-size: cover;
+    border: 0.5em solid darkgrey;
     border-radius: 1.5em;
     overflow: auto;
 }
 
 
 a{
+    background-image: url('pics/billboard.jpg');
+    border: 0.3em solid orange;
+    border-radius: 1em;
+    box-shadow: 0.2em 0.2em 0.2em 0.2em darkgrey;
+    color: white;
     display: block;
-    border: 1px solid transparent;
-    box-shadow: 0.5em 0.5em 0.5em 0.5em lightgrey;
     float:left;
     margin:4em;
     min-height: 14em;
+    opacity: .8;
     padding: 1em;
     text-decoration: none;
     z-index: 0;
-    width: 9.5em;
+    width: 17em;
 }
 a:before {
+    text-shadow: 2px 2px darkgrey;
     content: attr(title);
     display:block;
-    padding: 0.5em 0.5em;
+    font-weight: 900;
+    font-size: 1.5em;
+    padding:tes 0.5em 0.5em;
     text-align: center;
 }
 
 h1{
+    font-variant: Italic;
+    letter-spacing: 0.4em;
     text-align: center;
-    font-weight: 800;
 }
 
 img{
-    border: 0.5em solid lightgrey;
+    border: 0.25em solid darkgrey;
     border-radius:0.5em;
     box-shadow: 0.1em 0.1em 0.1em 0.1em darkgrey;
     margin-top: 1em;
-    margin-left: 0.8em;
-    width: 7em;
+    margin-left: 3em;
+    width: 10em;
     
 
 }
 
 /*Picture 1,4,7 etc...*/
 #images :nth-child(1n) {
-    transform: rotate(15deg);
+    transform: rotate(10deg);
     transition-duration: 1s;
 }
 /*Animation props for 1,4,7 etc...*/
@@ -62,6 +72,7 @@ img{
     border: 0.1250em solid transparent;
     border-radius: 2em;
     box-shadow: 0 0 0 0 transparent;
+    opacity: 1;
     padding: 0;
     position:relative;
     transform: scale(2);
@@ -80,6 +91,7 @@ img{
     border: 0.1250em solid transparent;
     border-radius: 2em;
     box-shadow: 0 0 0 0 transparent;
+    opacity: 1;
     padding: 0;
     position:relative;
     transform: scale(2);
@@ -89,7 +101,7 @@ img{
 
 /*Picture 2,5,8 etc...*/
 #images :nth-child(3n) {
-    transform: rotate(7deg);
+    transform: rotate(-5deg);
     transition-duration: 1s;
 }
 /*Animation props for 2,5,8 etc...*/
@@ -98,6 +110,7 @@ img{
     border: 0.1250em solid transparent;
     border-radius: 2em;
     box-shadow: 0 0 0 0 transparent;
+    opacity: 1;
     padding: 0;
     position:relative;
     transform: scale(2);
