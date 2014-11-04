@@ -342,6 +342,23 @@ tr:nth-child(even) {
 .contact_icon:hover{
 	background-position: 0 -288px
 }
+.comment{
+	background-color:white;
+	border: 0.1em solid black;
+	border-radius:5px;
+	margin: 1em;
+	padding: 1em;
+}
+.comment dt{
+	color: green;
+	font-weight:900;
+}
+.comment dd{
+	color:black;
+	font-style:italic;
+	margin: 1em;
+}
+
 
 
 
