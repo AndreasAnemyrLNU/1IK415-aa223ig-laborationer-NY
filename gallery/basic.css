@@ -1,50 +1,113 @@
-/*
-:after
-:hover
-:nth-child
-attr()
-content
-transition
-box-shadow
-transform
-z-index
-font-family
-*/
+@import url(//fonts.googleapis.com/css?family=Ubuntu);
+
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#container{
+    margin: auto auto;
+    width: 960px;
+}
+#images{
+    border: 0.5em solid black;
+    border-radius: 1.5em;
+    overflow: auto;
+}
+
 
 a{
+    display: block;
     border: 1px solid transparent;
     box-shadow: 0.5em 0.5em 0.5em 0.5em lightgrey;
-    margin:2em;
-    padding: 0.1em;
     float:left;
+    margin:4em;
+    min-height: 14em;
+    padding: 1em;
+    text-decoration: none;
+    z-index: 0;
+    width: 9.5em;
 }
-a:after {
-
-    display:block;
+a:before {
     content: attr(title);
+    display:block;
+    padding: 0.5em 0.5em;
     text-align: center;
 }
 
+h1{
+    text-align: center;
+    font-weight: 800;
+}
+
 img{
-    margin: 1.5em;
-    width: 200px;
+    border: 0.5em solid lightgrey;
+    border-radius:0.5em;
+    box-shadow: 0.1em 0.1em 0.1em 0.1em darkgrey;
+    margin-top: 1em;
+    margin-left: 0.8em;
+    width: 7em;
+    
 
 }
 
-
-
-#images :nth-child(3n+0) {
+/*Picture 1,4,7 etc...*/
+#images :nth-child(1n) {
     transform: rotate(15deg);
-    transition-duration: 2s;
+    transition-duration: 1s;
 }
-#images :nth-child(3n+0):hover{
+/*Animation props for 1,4,7 etc...*/
+#images :nth-child(1n):hover{
     background-color: white;
-    border: 0.0625em solid grey;
+    border: 0.1250em solid transparent;
+    border-radius: 2em;
     box-shadow: 0 0 0 0 transparent;
+    padding: 0;
     position:relative;
-    transform: scale(1.5);
+    transform: scale(2);
     z-index: 999;
 }
+/*end 1,4,7 etc...*/
+
+/*Picture 1,4,7 etc...*/
+#images :nth-child(2n) {
+    transform: rotate(-10deg);
+    transition-duration: 1.5s;
+}
+/*Animation props for 1,4,7 etc...*/
+#images :nth-child(2n):hover{
+    background-color: white;
+    border: 0.1250em solid transparent;
+    border-radius: 2em;
+    box-shadow: 0 0 0 0 transparent;
+    padding: 0;
+    position:relative;
+    transform: scale(2);
+    z-index: 999;
+}
+/*end 1,4,7 etc...*/
+
+/*Picture 2,5,8 etc...*/
+#images :nth-child(3n) {
+    transform: rotate(7deg);
+    transition-duration: 1s;
+}
+/*Animation props for 2,5,8 etc...*/
+#images :nth-child(3n):hover{
+    background-color: white;
+    border: 0.1250em solid transparent;
+    border-radius: 2em;
+    box-shadow: 0 0 0 0 transparent;
+    padding: 0;
+    position:relative;
+    transform: scale(2);
+    z-index: 999;
+}
+/*end 2,5,8 etc...*/
+
+
+
+
 
 
 
